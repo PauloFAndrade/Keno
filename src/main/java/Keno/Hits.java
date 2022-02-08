@@ -12,8 +12,9 @@ public class Hits {
         hits = aux;
     }
 
-    public void showHits() {
-        System.out.println("You hit the following number(s): " + hits);
+    public void showHits(int n) {
+        System.out.println("    You hit the following number(s): " + hits);
+        System.out.println("    A total of " + hits.size() + " hits of " + n + ".");
     }
     
     public int getHits() {
