@@ -20,8 +20,8 @@ public class Draw {
     }
 
     public void showDraw() {
-        System.out.println("The draw numbers are: ");
-        System.out.println(draw);
+        System.out.println("    The draw numbers are: ");
+        System.out.println("    " + draw);
     }
 
     public Set<Integer> getDraw() {
