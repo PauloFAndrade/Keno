@@ -36,7 +36,7 @@ public class Payout {
 
     public void showPayout(double betPerRound) {
         totalPayout = payoutRate*betPerRound;
-        System.out.println("Payout rate is: " + payoutRate + " thus you came out with: $"+totalPayout);
+        System.out.println("    Payout rate is: " + payoutRate + " thus you came out with: $" + totalPayout);
     }
 
 }
